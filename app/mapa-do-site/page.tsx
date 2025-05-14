@@ -1,7 +1,6 @@
 import Link from "next/link"
 import BreadcrumbNav from "@/components/breadcrumb-nav"
 import type { Metadata } from "next"
-import { redirectToWhatsApp } from "@/utils/whatsapp"
 
 export const metadata: Metadata = {
   title: "Mapa do Site | Apovel Prime",
@@ -171,12 +170,6 @@ export default function SiteMap() {
                 <strong>Email:</strong>{" "}
                 <a href="mailto:contato@apovelprime.com.br" className="text-yellow-600 hover:underline">
                   contato@apovelprime.com.br
-                </a>
-              </li>
-              <li onClick={redirectToWhatsApp}>
-                <strong>WhatsApp:</strong>{" "}
-                <a className="text-yellow-600 hover:underline">
-                  (73) 9846-3231
                 </a>
               </li>
             </ul>
