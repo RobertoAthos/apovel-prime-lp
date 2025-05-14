@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 15% 16%;
+    --foreground: 0 0% 95%;
+    --card: 220 15% 20%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 15% 16%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 220 15% 22%;
+    --primary-foreground: 0 0% 95%;
+    --secondary: 47 100% 58%;
+    --secondary-foreground: 220 15% 16%;
+    --muted: 220 15% 25%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 47 100% 58%;
+    --accent-foreground: 220 15% 16%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 220 15% 30%;
+    --input: 220 15% 30%;
+    --ring: 47 100% 58%;
+    --radius: 0.5rem;
+  }
+
+  .light {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 220 15% 22%;
+    --primary-foreground: 0 0% 95%;
+    --secondary: 47 100% 58%;
+    --secondary-foreground: 220 15% 16%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 47 100% 58%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Estilos personalizados para o Accordion */
+.accordion-content-show {
+  animation: accordionDown 0.2s ease-out;
+}
+
+.accordion-content-hide {
+  animation: accordionUp 0.2s ease-out;
+}
+
+@keyframes accordionDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes accordionUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}

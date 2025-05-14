@@ -1,0 +1,21 @@
+# Arquivo robots.txt para apovelprime.com.br
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://apovelprime.com.br/sitemap.xml
+
+# Diretórios e arquivos que não devem ser indexados
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /search
+Disallow: /*?*
+Disallow: /*.php$
+Disallow: /cgi-bin/
+Disallow: /tmp/

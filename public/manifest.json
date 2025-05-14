@@ -1,0 +1,23 @@
+{
+  "name": "Apovel Prime - Proteção Veicular",
+  "short_name": "Apovel Prime",
+  "description": "Proteção veicular com o melhor custo-benefício em Porto Seguro-BA. Planos a partir de R$89,90/mês.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#30343F",
+  "theme_color": "#FFD429",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
