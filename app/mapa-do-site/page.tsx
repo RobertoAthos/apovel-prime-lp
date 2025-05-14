@@ -162,7 +162,7 @@ export default function SiteMap() {
               </li>
               <li>
                 <strong>Telefone:</strong>{" "}
-                <a href="tel:+5573984632311" className="text-yellow-600 hover:underline">
+                <a href="tel:+557398463231" className="text-yellow-600 hover:underline">
                   (73) 9846-3231
                 </a>
               </li>

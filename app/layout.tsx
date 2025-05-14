@@ -119,7 +119,7 @@ export default function RootLayout({
                 image: "https://apovelprime.site/images/placeholder-logo.png",
                 "@id": "https://apovelprime.site",
                 url: "https://apovelprime.site",
-                telephone: "+5573984632311",
+                telephone: "+557398463231",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "Av. Principal, 1000",
