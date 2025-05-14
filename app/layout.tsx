@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     email: true,
     address: true,
   },
-  metadataBase: new URL("https://apovelprime.com.br"),
+  metadataBase: new URL("https://apovelprime.site"),
   alternates: {
     canonical: "/",
     languages: {
@@ -55,13 +55,13 @@ export const metadata: Metadata = {
     title: "Apovel Prime | Proteção Veicular em Porto Seguro-BA",
     description:
       "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês. Cobertura para roubo, furto, colisão e assistência 24h.",
-    url: "https://apovelprime.com.br",
+    url: "https://apovelprime.site",
     siteName: "Apovel Prime",
     locale: "pt_BR",
     type: "website",
     images: [
       {
-        url: "https://apovelprime.com.br/images/og-image.jpg",
+        url: "https://apovelprime.site/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Apovel Prime - Proteção Veicular",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Apovel Prime | Proteção Veicular em Porto Seguro-BA",
     description: "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês.",
-    images: ["https://apovelprime.com.br/images/twitter-image.jpg"],
+    images: [],
   },
   robots: {
     index: true,
@@ -101,7 +101,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
-        <link rel="canonical" href="https://apovelprime.com.br" />
+        <link rel="canonical" href="https://apovelprime.site" />
         <meta name="geo.region" content="BR-BA" />
         <meta name="geo.placename" content="Porto Seguro" />
       </head>
@@ -116,9 +116,9 @@ export default function RootLayout({
                 "@context": "https://schema.org",
                 "@type": "LocalBusiness",
                 name: "Apovel Prime",
-                image: "https://apovelprime.com.br/images/logo.png",
-                "@id": "https://apovelprime.com.br",
-                url: "https://apovelprime.com.br",
+                image: "https://apovelprime.site/images/placeholder-logo.png",
+                "@id": "https://apovelprime.site",
+                url: "https://apovelprime.site",
                 telephone: "+5573984632311",
                 address: {
                   "@type": "PostalAddress",
@@ -139,10 +139,8 @@ export default function RootLayout({
                   opens: "08:00",
                   closes: "18:00",
                 },
-                sameAs: [
-                  "https://www.facebook.com/apovelprime",
-                  "https://www.instagram.com/apovelprime",
-                  "https://www.linkedin.com/company/apovelprime",
+                sameAs: [          
+                  "https://www.instagram.com/apovelprime/?hl=pt-br",
                 ],
                 priceRange: "$$",
                 description:

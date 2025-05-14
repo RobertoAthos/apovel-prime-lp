@@ -5,7 +5,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Página inicial -->
   <url>
-    <loc>https://apovelprime.com.br/</loc>
+    <loc>https://apovelprime.site/</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -13,45 +13,39 @@
   
   <!-- Páginas principais -->
   <url>
-    <loc>https://apovelprime.com.br/sobre</loc>
+    <loc>https://apovelprime.site/sobre</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://apovelprime.com.br/servicos</loc>
+    <loc>https://apovelprime.site/servicos</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://apovelprime.com.br/planos</loc>
+    <loc>https://apovelprime.site/planos</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://apovelprime.com.br/contato</loc>
+    <loc>https://apovelprime.site/contato</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://apovelprime.com.br/blog</loc>
-    <lastmod>2025-05-13T12:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
   
   <!-- Páginas de políticas -->
   <url>
-    <loc>https://apovelprime.com.br/politica-de-privacidade</loc>
+    <loc>https://apovelprime.site/politica-de-privacidade</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://apovelprime.com.br/termos-de-uso</loc>
+    <loc>https://apovelprime.site/termos-de-uso</loc>
     <lastmod>2025-05-13T12:00:00+00:00</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

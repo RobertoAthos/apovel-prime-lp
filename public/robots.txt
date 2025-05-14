@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://apovelprime.com.br/sitemap.xml
+Sitemap: https://apovelprime.site/sitemap.xml
 
 # Diretórios e arquivos que não devem ser indexados
 Disallow: /admin/

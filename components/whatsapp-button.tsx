@@ -5,16 +5,10 @@ import Image from "next/image"
 import { X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { motion, AnimatePresence } from "framer-motion"
+import { redirectToWhatsApp } from "@/utils/whatsapp"
 
 export default function WhatsAppButton() {
   const [isOpen, setIsOpen] = useState(false)
-  const phoneNumber = "5573984632311" // +55 73 9846-3231 (formato para URL)
-  const message = "Olá! Gostaria de saber mais sobre proteção veicular e ser um associado."
-
-  const handleWhatsAppClick = () => {
-    const encodedMessage = encodeURIComponent(message)
-    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank")
-  }
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
@@ -36,7 +30,7 @@ export default function WhatsAppButton() {
             <p className="text-sm mb-3 text-dark">Olá! Como podemos ajudar você hoje?</p>
             <Button
               className="w-full bg-green-600 hover:bg-green-700 flex items-center justify-center"
-              onClick={handleWhatsAppClick}
+              onClick={redirectToWhatsApp}
             >
               <Image src="/images/whatsapp-logo.png" alt="WhatsApp" width={24} height={24} className="mr-2" />
               Iniciar conversa
