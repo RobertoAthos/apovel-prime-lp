@@ -32,9 +32,9 @@ const keywords = [
 ]
 
 export const metadata: Metadata = {
-  title: "Apovel Prime | Proteção Veicular em Porto Seguro-BA | Melhor Custo-Benefício",
+  title: "Apovel Prime | Proteção Veicular | Melhor Custo-Benefício",
   description:
-    "Proteção veicular com o melhor custo-benefício em Porto Seguro-BA. Planos a partir de R$89,90/mês. Cobertura para roubo, furto, colisão e assistência 24h em todo Brasil.",
+    "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês. Cobertura para roubo, furto, colisão e assistência 24h em todo Brasil.",
   keywords: keywords.join(", "),
   authors: [{ name: "Apovel Prime" }],
   creator: "Apovel Prime",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Apovel Prime | Proteção Veicular em Porto Seguro-BA",
+    title: "Apovel Prime | Proteção Veicular",
     description:
       "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês. Cobertura para roubo, furto, colisão e assistência 24h.",
     url: "https://apovelprime.site",
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Apovel Prime | Proteção Veicular em Porto Seguro-BA",
+    title: "Apovel Prime | Proteção Veicular",
     description: "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês.",
     images: [],
   },
@@ -144,7 +144,7 @@ export default function RootLayout({
                 ],
                 priceRange: "$$",
                 description:
-                  "Proteção veicular com o melhor custo-benefício em Porto Seguro-BA. Planos a partir de R$89,90/mês.",
+                  "Proteção veicular com o melhor custo-benefício. Planos a partir de R$89,90/mês.",
               }),
             }}
           />

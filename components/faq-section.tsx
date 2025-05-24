@@ -19,17 +19,7 @@ export default function FaqSection() {
       question: "Qualquer veículo pode ser protegido?",
       answer:
         "Aceitamos veículos de passeio, utilitários, motos e caminhões com até 20 anos de fabricação, após análise de perfil. Veículos com restrições ou problemas estruturais podem passar por uma avaliação especial.",
-    },
-    {
-      question: "A proteção veicular cobre veículos de aplicativo (Uber, 99)?",
-      answer:
-        "Sim, oferecemos planos específicos para veículos utilizados em aplicativos de transporte, com coberturas adequadas para este tipo de uso.",
-    },
-    {
-      question: "Existe carência para utilizar os serviços?",
-      answer:
-        "Para assistência 24h não há carência. Para proteção contra roubo e furto, a carência é de 30 dias. Para colisão e demais coberturas, a carência é de 15 dias após a vistoria do veículo.",
-    },
+    }
   ]
 
   const container = {

@@ -39,29 +39,27 @@ export default function Home() {
     <>
       <BreadcrumbNav items={[{ label: "Início", href: "/" }]} />
 
-      <main className="flex min-h-screen flex-col">
-        {/* Hero Section */}
+      <main className="flex min-h-screen flex-col">        {/* Hero Section */}
         <section id="inicio" className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white">
           <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <motion.div
-                className="space-y-6"
+                className="space-y-6 text-center md:text-left"
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}
-              >
-                <div className="w-64 md:w-80">
+              >          
+             <div className="w-full flex justify-center md:justify-start mb-4">
                   <Image
                     src="/images/logo.png"
-                    alt="Apovel Prime - Proteção Veicular em Porto Seguro-BA"
-                    width={400}
-                    height={200}
-                    className="w-full h-auto"
+                    alt="Apovel Prime - Proteção Veicular"
+                    width={200}
+                    height={100}          
                     priority
                   />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
-                  Proteção Veicular com o melhor custo-benefício em Porto Seguro-BA
+                  Proteção Veicular com o melhor custo-benefício
                 </h1>
                 <p className="text-lg md:text-xl">
                   Proteja seu veículo contra roubo, furto, colisão, incêndio e muito mais com planos a partir de
@@ -108,7 +106,7 @@ export default function Home() {
               >
                 <Image
                   src="/images/vehicles.png"
-                  alt="Veículos protegidos pela Apovel Prime em Porto Seguro-BA"
+                  alt="Veículos protegidos pela Apovel Prime"
                   width={600}
                   height={400}
                   className="w-full h-auto"
@@ -235,7 +233,7 @@ export default function Home() {
               >
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">Proteja seu veículo agora mesmo</h2>
                 <p className="text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-                  Junte-se a milhares de clientes satisfeitos em Porto Seguro-BA e garanta a melhor proteção para seu
+                  Junte-se a milhares de clientes satisfeitos e garanta a melhor proteção para seu
                   veículo com condições especiais.
                 </p>
                 <Button
