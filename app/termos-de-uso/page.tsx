@@ -29,7 +29,7 @@ export default function TermsOfService() {
           <h2 className="text-2xl font-semibold mt-8 mb-4">2. Descrição dos Serviços</h2>
           <p>
             A Apovel Prime oferece serviços de proteção veicular, incluindo cobertura para roubo, furto, colisão,
-            incêndio, assistência 24 horas, entre outros benefícios para veículos em Porto Seguro-BA e região.
+            incêndio, assistência 24 horas, entre outros benefícios para veículos.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">3. Elegibilidade</h2>

@@ -11,7 +11,7 @@ export default function BenefitsSection() {
     "Proteção contra incêndio",
     "Cobertura para terceiros",
     "Assistência 24 horas",
-    "Guincho ilimitado",
+    "Guincho ilimitado pós colisão",
     "Carro reserva",
     "Proteção para vidros",
     "Cobertura nacional",
